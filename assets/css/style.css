@@ -1214,3 +1214,43 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+/* Estilos para el contenedor de los elementos */
+.skill-item-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para los íconos */
+.icon-large {
+  font-size: 4rem; /* Tamaño grande de los íconos */
+  margin-right: 20px; /* Separación entre el ícono y el texto */
+}
+
+/* Estilo para el contenedor de texto */
+.skill-text h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.skill-text p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Orden inverso para los elementos intercalados */
+.skill-item-wrapper.reverse {
+  flex-direction: row-reverse; /* Coloca el ícono a la derecha */
+}
+
+/* Ajuste para que el contenido no se desborde */
+.skill-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fab {
+  font-size: 40px;
+  color: #000; /* Asegúrate de que los iconos sean visibles */
+}
